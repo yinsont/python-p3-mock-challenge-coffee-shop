@@ -39,7 +39,7 @@ class TestOrders:
         assert (isinstance(order_2.customer, Customer))
 
     def test_has_a_coffee(self):
-        '''Review has a coffee.'''
+        '''Order has a coffee.'''
         coffee_1 = Coffee("Mocha")
         coffee_2 = Coffee("Peppermint Mocha")
         customer = Customer('Wayne')
